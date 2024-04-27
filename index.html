@@ -1,0 +1,100 @@
+
+ 
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>VolunUnity Connect</title>
+        <link rel="icon" href="Pictures/iconsmall.png">
+        <link rel="shortcut icon" href="Pictures/iconsmall.png">
+        <link rel="stylesheet" href="CSS/stylesheet.css">
+        <link rel="stylesheet" href="CSS/footer.css">
+        <script src="slides.js"></script>
+    </head>
+    <body>
+
+        
+        <header class="HeaderHeader" id="Push_header">
+            <div class="login_register">
+                <ul id = abc>
+                  <li id= "topnav"><a href="application.php">My Application</a></li>
+                  <li id= "topnav"><a href="">|</li>
+                  <li id= "active"><a href="index.html">Home</a></li>
+                  <li><a href="index.html"><img class="logo" src="Pictures/icon.png" alt="VolunUnity Connect"></a></li>
+                </ul>
+
+                <ul>
+                  <li><a href="logout.php"  ></a></li>
+                  <li><a href="register.php">Sign Up</a></li>
+                  <li>&nbsp&nbsp|&nbsp</li>
+                  <li><a href="login.php" >Login</a></li>
+                  <li><a href="myProfile.php"  ></a></li>
+                  <li><img class="image_login_register" src="Pictures/login_register_icon.png" alt="Login and register icon"></a>
+                </ul>
+            </div>
+        </header>
+
+        <main id="Push_main">
+        <div class="slidebanner-container">
+            <section class="Showcase">
+            <div class="viewOpt">
+              <button style="border: 3px solid #011A3D;"><a href="index.html">One Time Voluntary Work</button></a>
+              <a href="indexRecurring.php"><button>Recurring Voluntary Work</button></a>
+            </div>
+        
+            <br><br>
+        
+            <div class="row">
+              <form method="POST" action="filter_work.php">
+              <label for="state">Select State:</label>
+              <select name="state" id="state">
+                <option value="All" >All States</option>
+                <option value="Johor" >Johor</option>
+                <option value="Kedah" >Kedah</option>
+                <option value="Kelantan" >Kelantan</option>
+                <option value="Melaka" >Melaka</option>
+                <option value="Negeri Sembilan" >Negeri Sembilan</option>
+                <option value="Pahang" >Pahang</option>
+                <option value="Penang" >Penang</option>
+                <option value="Perak" >Perak</option>
+                <option value="Perlis" >Perlis</option>
+                <option value="Sabah" >Sabah</option>
+                <option value="Sarawak" >Sarawak</option>
+                <option value="Selangor" >Selangor</option>
+                <option value="Terengganu" >Terengganu</option>
+              </select>
+
+              <input type="submit" value="Search" class="search-button">
+              </form>
+            </div>
+
+            <br><br><br><br>
+
+            <div class="row">
+              <h3 id = "voluntaryWork"> Voluntary Work </h3>
+
+              <form name="workInfo" method="post" action="workInfo.php"><div class="column"> <div class = "card"><img src = "Photos/haircut_oldfolk.jpg"/>  <div class="grid-container_1"> <h2>Haircut for the Elderly</h2></div>  <div class="grid-container_5"> <p>Offering haircuts to those old folks in need.</p></div>  <div class="grid-container_5"> <h4>Location : Johor</h4></div><br><br><br><br><input type="hidden" name="work_id" value="1"><input class="button" type="submit" value="More details">   </div></div></form><form name="workInfo" method="post" action="workInfo.php"><div class="column"> <div class = "card"><img src = "Photos/haircut_orphans.jpg"/>  <div class="grid-container_1"> <h2>Haircut for Orphans</h2></div>  <div class="grid-container_5"> <p>Offering haircuts to those orphanages in need.</p></div>  <div class="grid-container_5"> <h4>Location : Sarawak</h4></div><br><br><br><br><input type="hidden" name="work_id" value="4"><input class="button" type="submit" value="More details">   </div></div></form><form name="workInfo" method="post" action="workInfo.php"><div class="column"> <div class = "card"><img src = "Photos/tutoring_volunteer.jpg"/>  <div class="grid-container_1"> <h2>Volunteer Tutoring</h2></div>  <div class="grid-container_5"> <p>Provide academic support and mentorship to students in need.</p></div>  <div class="grid-container_5"> <h4>Location : Selangor</h4></div><br><br><br><br><input type="hidden" name="work_id" value="6"><input class="button" type="submit" value="More details">   </div></div></form><form name="workInfo" method="post" action="workInfo.php"><div class="column"> <div class = "card"><img src = "Photos/homeless_shelter_volunteer.jpeg"/>  <div class="grid-container_1"> <h2>Homeless Shelter Volunteer</h2></div>  <div class="grid-container_5"> <p>Assist with meal preparation, distribution, and provide companionship to homeless individuals.</p></div>  <div class="grid-container_5"> <h4>Location : Johor</h4></div><br><br><br><br><input type="hidden" name="work_id" value="8"><input class="button" type="submit" value="More details">   </div></div></form><form name="workInfo" method="post" action="workInfo.php"><div class="column"> <div class = "card"><img src = "Photos/elderly_companion.jpeg"/>  <div class="grid-container_1"> <h2>Elderly Companion</h2></div>  <div class="grid-container_5"> <p>Spend quality time with elderly individuals by engaging in activities and providing companionship.</p></div>  <div class="grid-container_5"> <h4>Location : Kuala Lumpur</h4></div><br><br><br><br><input type="hidden" name="work_id" value="10"><input class="button" type="submit" value="More details">   </div></div></form><form name="workInfo" method="post" action="workInfo.php"><div class="column"> <div class = "card"><img src = "Photos/teddy.png"/>  <div class="grid-container_1"> <h2>testing</h2></div>  <div class="grid-container_5"> <p>ffff</p></div>  <div class="grid-container_5"> <h4>Location : Kelantan</h4></div><br><br><br><br><input type="hidden" name="work_id" value="16"><input class="button" type="submit" value="More details">   </div></div></form>            </div>
+
+          </section>
+        </main>
+
+        <br><br><br><br><br><br>
+
+        <footer class="FooterFooter" id="Push_footer">
+            <div class="FFooterUpperPortion">
+                <div class="FFooterIcon">
+                    <img src="Pictures/icon.png" alt="VolunUnity Connect">
+                </div>
+            </div>
+
+            <hr id="FooterLine"/><br>
+
+            <div class="FFooterLowerPortion" >
+              <sub class="Disclaimer">©2024 VolunUnity Connect - All Rights Reserved</sub>
+            </div>
+        </footer>
+    </body>
+</html>
+

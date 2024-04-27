@@ -1,0 +1,240 @@
+html {
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body{
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 100%;
+    background-color: #f9faf4;
+}
+
+.login_register {
+    margin-right: 5%;
+    padding-bottom: 0; 
+    padding-top: 2%;
+    background: #DCCCFF;
+  }
+  
+  .login_register ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-right: 50px;
+    overflow: hidden;
+    padding-top: 15px;
+  }
+  
+  .login_register li {
+    float:right;
+    font-size: 20px;
+    color: BLack;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+  }
+
+  .login_register li a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: BLack;
+  }
+  
+  .login_register li a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+  }
+  
+  .login_error {
+    text-align: center;
+    margin: 3% 0;
+}
+
+.login_fail {
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.error{
+    color:red;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  .logo {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: -6%;
+    margin-left: 100px;
+  }
+  
+
+header {
+    background-color: #DCCCFF;
+    min-width: 1500px;
+    box-shadow: 1px 1px 5px 1px #f9faf4;
+    height: 130px;
+}
+
+header .logo {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: -1%;
+    margin-left: 150px;
+}
+
+.header_login {
+    font-size: 35px;
+    color: Black;
+    text-shadow: 1px 1px 1px #DCCCFF;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header_login a{
+    text-decoration: none;
+    text-align: center;
+    color: Black;
+    font-size: 20px;
+    text-shadow: 3px 1px 4px #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_login a:hover{
+    color: rgb(0, 0, 0);
+  text-shadow: 1px 1px #ffc94b;
+}
+
+#icon{
+    width: auto;
+    height: 20px;
+    float: right;
+    padding-right: 5px;
+}
+
+.login{
+    margin-top: 2%;
+    font-size: 25px;
+    text-shadow: 3px 1px 4px #ffffff;
+    text-align: center;
+    padding-right: 6px;
+    padding-top:0px;
+}
+
+.headerLogin 
+{
+    width: 40%;
+    margin: 30px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 25px;
+}
+
+form, .content
+{
+    width: 40%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    padding-bottom: 10px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group
+{
+    margin: 10px 0px 10px 0px;
+    padding-top: 15px;
+}
+
+.input-group label 
+{
+    display: block;
+    text-align: left;
+    margin: 5px;
+    margin-left: 18px;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-group input 
+{
+    height: 40px;
+    width: 90%;
+    padding: 5px 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn 
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+    margin-left: 260px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.btn:hover 
+{
+    background-color: #5353FF;
+}
+
+
+.forgotpw a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-top: -1%;
+}
+
+.forgotpw a:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px #ffc94b;
+}
+
+.login_error {
+    text-align: center;
+    margin: 3% 0;
+}
+
+.login_fail {
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.error{
+    color:red;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column #line{
+    border-radius: 5px;
+    border: 2px solid #DCCCFF ;
+    width: 75%;
+}

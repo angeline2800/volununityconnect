@@ -1,0 +1,328 @@
+html {
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body{
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    background-color: #f9faf4;
+}
+
+.headerRegister 
+{
+    width: 40%;
+    margin: 30px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 25px;
+}
+
+
+.login_register {
+    margin-right: 5%;
+    padding-bottom: 0; 
+    padding-top: 2%;
+    background: #DCCCFF;
+  }
+  
+  .login_register ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-right: 50px;
+    overflow: hidden;
+    padding-top: 15px;
+  }
+  
+  .login_register li {
+    float:right;
+    font-size: 20px;
+    color: BLack;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+  }
+
+  .login_register li a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: BLack;
+  }
+  
+  .login_register li a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+  }
+
+  .login{
+    margin-top: 2%;
+    font-size: 25px;
+    text-shadow: 3px 1px 4px #ffffff;
+    text-align: center;
+    padding-right: 6px;
+    padding-top:0px;
+}
+
+
+header {
+    background-color: #DCCCFF;
+    min-width: 1500px;
+    box-shadow: 1px 1px 5px 1px #f9faf4;
+    height: 130px;
+}
+
+header .logo {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: -1%;
+    margin-left: 150px;
+}
+
+
+.header_signup {
+    font-size: 35px;
+    color: Black;
+    text-shadow: 1px 1px 1px #ffc94b;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header_signup a{
+    text-decoration: none;
+    text-align: center;
+    color: Black;
+    font-size: 20px;
+    text-shadow: 3px 1px 4px #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header_signup a:hover{
+    color: rgb(0, 0, 0);
+  text-shadow: 1px 1px #ffc94b;
+}
+
+.signup{
+    margin-top: 2%;
+    font-size: 25px;
+    text-shadow: 3px 1px 4px #ffffff;
+    text-align: center;
+    padding-right: 6px;
+    padding-top:0px;
+}
+
+form, .content
+{
+    width: 40%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    padding: 25px;
+    padding-bottom: 40px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.row{
+    display: inline-flex;
+    width: 100%;
+}
+
+.col1{
+    width: 40%;
+    padding: 10px 0px;
+    margin-top: 6px;
+}
+
+.col2{
+    width: 60%;
+    padding: 10px 0px;
+    padding-right: 20px;
+}
+
+.col1 label{
+    margin-left: 22%;
+    float: left;
+    padding-right: 6px;
+    font-size: 18px;
+}
+
+.col2 input{
+    width: 350px;
+    height: 30px;
+}
+
+form select{
+    height: 35px;
+    width: 350px;
+}
+
+#mobile{
+    width: 350px;
+    height: 30px;
+}
+
+.gender{
+    display: inline-flex;
+    width: 100%;
+}
+
+.gender input{
+    all: revert;
+    height: 25px;
+    width: 20px;
+    margin-left: 10%;
+}
+
+.gender label{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.type{
+    display: inline-flex;
+    width: 100%;
+}
+
+.type input{
+    all: revert;
+    height: 25px;
+    width: 20px;
+    margin-left: 10%;
+}
+
+.type label{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+#state {
+    width: 358px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: rgb(229, 226, 255);
+    border: 2px solid #f9a66c;
+}
+
+.Terms_Con{
+    text-align: center;
+    font-size: 18px;
+}
+
+.Terms_Con input{
+    height: 15px;
+    width: 15px;
+}
+
+.Terms_Con label{
+    padding-bottom: 90px;
+}
+
+/* Style for the button*/
+input[type="submit"] {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #6242a8;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 #DCCCFF;
+    margin-top: 5%;
+    margin-left: 35%;
+  }
+  
+  /* Hover effect for the button */
+  input[type="submit"]:hover {
+    background-color: #a692d1;
+    text-shadow: 1px 1px #a692d1;
+    color: #ffffff;
+  }
+
+#icon{
+    width: auto;
+    height: 20px;
+    float: right;
+    padding-right: 5px;
+}
+
+/*Extra Css for PHP validation*/
+.error{
+    color:red;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.correct{
+    color: green;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hint{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.errorGender{
+    padding-top: 7px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+
+.errorTerms{
+    padding-top: 7px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+
+.welcome{
+    text-align : center;
+    color: green;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+.welcome a{
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome a:hover{
+    color: #f9a66c ;
+    text-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+
+.column #line{
+    border-radius: 5px;
+    border: 2px solid #DCCCFF;
+    width: 75%;
+}
